@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <div class="WRAPPER">
+        <div class="boxLogo">
+             <img src="IMAGENS/logo.png" alt="img" title="Logo" class="tamanhoLogo">
+
+        </div>
+
+        <div class="boxMenu">
+            <nav>
+                <ul>
+                    <li> <a href="index.html"> Home </a></li>
+                    <li> <a href="cardapio.html"> Cardápio </a></li>
+                    <li> <a href="quemsomos.html"> O Yügen </a></li>
+                    <li> <a href="contato.html" class="corMenu"> Contato </a></li>
+                </ul>
+            </nav>
+        </div>
+
+       <div class="boxbannerCont">
+        <img src="IMAGENS/dentrorestaurante3.webp" alt="img" title="Fachada" class="tamBoxBannerCont">
+       </div>
+
+       <div class="boxFormulario">
+       
+        <form method="post" id="FContato" action="mailto:empresaX@gmail.com">
+            <p> 
+            <label for="cNome"> Nome: </label> <br>
+            <input type="text" name="tNome" id="cNome" size="40" maxlength="30" autofocus required />
+            </p> 
+
+
+            <p>
+            <label for="cRua">Endereço:</label><br>
+            <input type="text" name="tRua" id="cRua" size="40" maxlength="50"  placeholder="Rua, Av, Trav,..." required />
+            </p>
+
+            <p>
+            <label for="cTel">Telefone:</label><br>
+            <input type="tel" name="tTel" id="cTel" size="40" maxlength="30"  required />
+            </p>
+                
+            <p>
+            <label for="cMail">E-mail:</label><br>
+            <input type="email" name="tMail" id="cMail" size="40" maxlength="30"  required />
+            </p> 
+            
+            <p>
+            <label for="cDate">Faça a sua reserva:</label><br>
+            <input type="date" name="tDate" id="cDate" size="40" maxlength="30"  required />
+            </p> 
+            
+        <p>
+        <label for="cMsg">Mensagem:</label><br>
+        <textarea name="tMsg" id="cMsg" cols="40" rows="5" placeholder="Deixe aqui sua mensagem">
+        </textarea>  
+        </p>
+            
+        
+        <input type="submit" name="Enviar" class="botaoEnviar" style="padding:10px 15px 10px 15px; border-radius:10px;border-color: #ffffff;" /> 
+        
+        </form> 
+
+       </div> 
+               
+
+         </div>
+       </div>
+
+        <div class="boxRedes">
+            <img src="IMAGENS/Facebook.png" alt="img" title="facebook" class="tamBoxRedes">
+            <img src="IMAGENS/Instagram.png" alt="img" title="instagram" class="tamBoxRedes">
+            <img src="IMAGENS/WhatsApp.png" alt="img" title="WhatsApp" class="tamBoxRedes">
+        </div>
+
+        <div class="boxRodape">
+            Todos os direitos reservados - 2026
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
